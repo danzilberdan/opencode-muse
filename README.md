@@ -27,28 +27,9 @@ the browser approval entirely.
 
 ## Install
 
-### From GitHub (source)
-
 ```sh
 git clone https://github.com/danzilberdan/opencode-muse.git
 cd opencode-muse
-npm install
-npm run build
-cp dist/muse.js ~/.config/opencode/plugins/muse.js
-opencode reload
-```
-
-### From npm (once published)
-
-```sh
-opencode plugin add opencode-muse
-```
-
-### From a local file
-
-Build the single-file bundle and drop it into the global plugins directory:
-
-```sh
 npm install
 npm run build
 cp dist/muse.js ~/.config/opencode/plugins/muse.js
